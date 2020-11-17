@@ -6,6 +6,6 @@
 
 <!ENTITY data SYSTEM "file:///etc/passwd">]>
 
-<root>
+<data>
 
-</root>
+</data>
