@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
-<!DOCTYPE r [
-<!ELEMENT r ANY >
-<!ENTITY sp SYSTEM "file:///etc/passwd">
+<!DOCTYPE data [
+<!ELEMENT data ANY >
+<!ENTITY sp SYSTEM "file:///tmp/hsperfdata_root/6">
 ]>
-<r>&sp;</r>
+<data>&sp;</data>
