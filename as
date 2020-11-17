@@ -2,7 +2,7 @@
 <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
 "http://www.springframework.org/dtd/spring-beans.dtd">
 <beans>
-<bean id="user" class="com.wenxin.www.domain.user">
+<bean>
 <property name="name" value="wangli">
 </property>
 </bean>
