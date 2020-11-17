@@ -4,4 +4,5 @@
 <!ENTITY b SYSTEM "file:///etc/passwd">
 ]>
 <beans>
+  &b;
 </beans>
