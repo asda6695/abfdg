@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
-"http://www.springframework.org/dtd/spring-beans.dtd"[
-<!ENTITY b SYSTEM "file:///etc/passwd">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE root [
+ <!ENTITY % start "<![CDATA[">
+ <!ENTITY % stuff SYSTEM "file:///etc/passwd">
+<!ENTITY % end "]]>">
+<!ENTITY % dtd SYSTEM "file:///etc/passwd">
+%dtd;
 ]>
-<beans>
-  &b;
-</beans>
+<root>&all;</root>
