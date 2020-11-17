@@ -1,10 +1,1 @@
-<bean id="freemarkerConfig"
-    class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
-  <property name="freemarkerSettings">
-    <props>
-      <prop key="incompatible_improvements">2.3.23</prop>
-      <prop key="template_exception_handler">rethrow</prop>
-      <prop key="default_encoding">UTF-8</prop>
-    </props>
-  </property>
-</bean>
+<#assign base = request.contextPath/>
